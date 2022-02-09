@@ -1,0 +1,8 @@
+{
+  "name": "benchmark-template",
+  "version-string": "0.0.0",
+  "description": "Example benchmark template",
+  "dependencies": [
+    "benchmark"
+  ]
+}
