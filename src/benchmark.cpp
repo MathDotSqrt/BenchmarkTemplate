@@ -1,5 +1,17 @@
 #include <benchmark/benchmark.h>
 
+
+//static void benchmark_template(benchmark::State& state) {
+//    // Perform setup here
+//    for (auto _ : state) {
+//        // This code gets timed
+//        SomeFunction();
+//    }
+//}
+//// Register the function as a benchmark
+//BENCHMARK(BM_SomeFunction);
+
+
 //Testing default constructor
 static void benchmark_func1(benchmark::State& state) {
     for (auto _ : state)
